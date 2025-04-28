@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--linen);
+}
+
+:root {
+    --olive-green: #556b2f;
+    --saddle-brown: #8b4513;
+    --peru: #cd853f;
+    --linen: #faf0e6;
+}
+
+.playfair_display {
+    font-family: "Playfair Display", serif;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+}
+
+.landing_page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    min-height: 100vh;
+    background-color: var(--peru);
+}
+
+/* heading style */
+
+.main_header {
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    max-height: fit-content;
+    margin-top: 1rem;
+    padding: 0.2rem 6rem;
+}
+
+.header_logo {
+    flex-basis: 30%;
+}
+
+.header_logo img {
+    width: 4rem;
+    /* border: 1px solid black; */
+}
+
+.main_navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 70%;
+    align-items: center;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+}
+
+.main_navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main_navbar ul li:hover {
+    /* text-decoration-line: underline; */
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+.contact_btn {
+    all: unset;
+    background-color: var(--saddle-brown);
+    border-radius: 0.9rem;
+    border: 0.1rem solid var(--peru);
+    padding: 0.8rem 1.2rem;
+    font-size: 1.4rem;
+    width: 12rem;
+    text-align: center;
+    opacity: 0.7;
+    backdrop-filter: blur(12px);
+}
+
+
+/*  main section styling */
+
+.main_section {
+    background-color: black;
+    grid-area: 1 / 1 / 3 / 2;
+
+}
+
+.hero_section {
+    min-height: 120vh;
+    background-image: url('../assets/hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+
+}
+
+.hero_section div {
+    padding: 15px;
+    margin-top: 2rem;
+}
+
+.hero_section div h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 90px;
+    line-height: 100%;
+    /* border: 1px solid black; */
+    font-weight: 700;
+}
+
+.hero_section div h2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+    font-size: 50px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+
+/*  about me section */
+.about_me_section {
+    min-height: fit-content;
+    position: relative;
+    /* background: #CD853F; */
+    /* border: 3px solid; */
+    background: #8B4513;
+    background: linear-gradient(140deg, rgba(139, 69, 19, 1) 0%, rgba(28, 33, 17, 1) 4%, rgba(36, 51, 14, 1) 41%, rgba(34, 54, 9, 1) 89%, rgb(110, 49, 6) 100%);
+}
+
+.about_me_section .background_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background_img img {
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+.about_me_content {
+    padding: 2rem 1rem;
+    max-width: 90%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about_me_content h2 {
+    font-size: 93px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 2rem;
+}
+
+.about_card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: fit-content;
+    width: fit-content;
+    z-index: 10;
+}
+
+.about_card {
+    border: 2px solid var(--peru);
+    border-radius: 12px;
+    /* padding: 1rem; */
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(139, 69, 19, 1)
+}
+
+.about_card1 {
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+.about_card img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_me_content q {
+    font-size: 26px;
+    text-align: center;
+
+}
