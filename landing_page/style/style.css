@@ -191,12 +191,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(139, 69, 19, 1)
+    background-color: rgba(139, 69, 19, 1);
+    
 }
 
 .about_card1 {
     padding: 1rem 3rem;
     text-align: justify;
+    font-weight: 200;
+    height: auto;
 }
 
 .about_card img {
@@ -207,5 +210,93 @@
 .about_me_content q {
     font-size: 26px;
     text-align: center;
-
+    font-weight: 300;
 }
+
+.experience {
+    background: #8f5418;
+    background: linear-gradient(121deg, rgba(143, 84, 24, 1) 0%, rgba(139, 69, 19, 1) 11%, rgba(139, 69, 19, 1) 52%, rgba(139, 69, 19, 1) 82%, rgba(143, 84, 24, 1) 97%);
+    min: height 100vh;
+    position: relative;
+}
+/* .experience_content{
+    padding: 2rem 1rem;
+    max-width: 90%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+.experience_content h2 {
+    font-size: 100px;
+    font-weight: 400;
+}
+.experience_content p {
+    font-size: 70px;
+    margin-top: 10px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .exp_line {
+    width: 100%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+
+  .experience_description{
+    margin-top: 9rem;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+
+  }
+   */
+
+ 
+  .experience .background_img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .experience_content {
+    gap: 5rem;
+    padding: 4rem 9rem;
+    min-width: 500px;
+    min-height: 100vh;
+  }
+  
+  .experience_content h2 {
+    font-size: 150px;
+    font-weight: 400;
+  }
+  
+  .experience_content p {
+    font-size: 70px;
+    margin-top: 0.1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .exp_line {
+    width: 100%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 10px;
+  }
+  
+  .experience_description {
+    margin-top: 8rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align:center;
+    
+  }
