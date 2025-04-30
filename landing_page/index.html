@@ -25,16 +25,16 @@
       </div>
       <nav class="main_navbar lato">
         <ul>
-          <li>home</li>
-          <li>about me</li>
-          <li>work</li>
-          <li>services</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#service">Service</a></li>
         </ul>
-        <button class="contact_btn">contact me</button>
+        <button class="contact_btn lato">Contact Me</button>
       </nav>
     </header>
     <main class="main_section">
-      <section class="hero_section">
+      <section class="hero_section" id="#">
         <div class="playfair_display">
           <h1>
             <span>Hello Guys!!!</span>
@@ -62,7 +62,7 @@
               <img src="assets/about_me_img.png" alt="photographer" />
             </div>
           </div>
-          <q class="playfair_display">
+          <q class="playfair_display about_description"">
             My goal is to make my clients feel comfortable
             and natural in front of the camera, ensuring
             that the final images truly reflect their
@@ -70,51 +70,132 @@
           </q>
         </div>
       </section>
-     
+    
+      <section class=" experience" id="experience">
+            <div class="background_img">
+              <img src="assets/bg_img.png" alt="background stars" />
+            </div>
+            <div class="experience_content ">
+              <div class="row1">
+                <h2 class="playfair_display">12</h2>
+                <p class="lato">Years <span class="exp_line"></span>Experience</p>
+              </div>
+              <div class="row2">
+                <h2 class="playfair_display">200</h2>
+                <p class="lato">
+                  Projects <span class="exp_line"></span> Completed
+                </p>
+              </div>
+              <div class="experience_description">
+                <q class=" playfair_display">
+                  Whether you need a photographer for a special event, a
+                  professional portrait session, or commercial projects, I am here
+                  to provide high-quality, creative, and tailored photography
+                  services.
+                </q>
+              </div>
+            </div>
 
-      <section class="experience">
-        <div class="background_img">
-          <img src="assets/bg_img.png" alt="background stars" />
-        </div>
-        <div class="experience_content ">
-          <div class="row1">
-          <h2 class="playfair_display">12</h2>
-          <p class="lato">Years <span class="exp_line"></span>Experience</p>
-        </div>
-        <div class="row2">
-          <h2 class="playfair_display">200</h2>
-          <p class="lato">
-            Projects <span class="exp_line"></span> Completed
-          </p>
-        </div>
-          <q class="experience_description playfair_display">
-            Whether you need a photographer for a special event, a
-            professional portrait session, or commercial projects, I am here
-            to provide high-quality, creative, and tailored photography
-            services.
-          </q>
-        </div>
-      
       </section>
 
-      <section class="work_section">
+
+      <section class="work_section" id="work">
         <div class="background_img">
           <img src="assets/bg_img.png" alt="background stars" />
         </div>
+
         <div class="work_content">
-          <div class="work">
-            <h2>Work</h2>
+          <h2 class="playfair_display">Work</h2>
+
+          <div class="work_container">
+            <div class="items items_1"><img src="./assets/work1.png" alt="work1"></div>
+            <div class="items items_2"><img src="./assets/work2.png" alt="work2"></div>
+            <div class="items items_3"><img src="./assets/work3.png" alt="work3"></div>
+            <div class="items items_4"><img src="./assets/work4.png" alt="work4"></div>
+            <div class="items items_5"><img src="./assets/work5.png" alt="work5"></div>
           </div>
-          <div class="album">
-
-
+          <span class="see_more">See more →</span>
+          <div class="work_description">
+            <q>Photography is the story I fail to put into words. </q><br><span>— Destin Sparks </span>
           </div>
 
-
+        </div>
+      </section>
+      <section class="services_section" id="service">
+        <div class="background_img">
+          <img src="assets/bg_img.png" alt="background stars" />
+        </div>
+        <div class="service_content">
+          <h2 class="playfair_display">
+            Services Offered
+          </h2>
+          <div class="service_container">
+            <div class="services service_1"><img src="./assets/service1.jpg" alt="service1"></div>
+            <div class="services service_2"><img src="./assets/service2.png" alt="service2"></div>
+            <div class="services service_3"><img src="./assets/service3.png" alt="service3"></div>
+            <div class="services service_4"><img src="./assets/service4.png" alt="service4"></div>
+            <div class="services service_5"><img src="./assets/service5.png" alt="service5"></div>
+          </div>
+          <div class="service_description">
+            <q>A photograph is a secret about a secret. The more it tells you, the less you know. </q><br>
+            <span>— Diane Arbus</span>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="main_footer">
+      <div class="background_img">
+        <img src="assets/bg_img.png" alt="background stars" />
+      </div>
+      <div class="footer_content">
+        <h2 class="playfair_display">Contact Me</h2>
+    
+        <div class="foot_container">
+          <!-- Left Section -->
+          <div class="foot1">
+            <div class="contact-info lato">
+              <div class="contact-item">
+                <img src="./assets/Mail.png" alt="mail" />
+                <span>elizabethphotographer@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <img src="./assets/phone.png" alt="phone" />
+                <span>8694945151</span>
+              </div>
+              <div class="contact-item">
+                <img src="./assets/Location.png" alt="location" />
+                <span>California</span>
+              </div>
+            </div>
+    
+            <div class="social-section">
+              <h3 class="playfair_display">Follow Me</h3>
+              <div class="social-icons">
+                <a href="#"><img src="./assets/instagram.png" alt="instagram" /></a>
+                <a href="#"><img src="./assets/Pinterest.png" alt="pinterest" /></a>
+                <a href="#"><img src="./assets/twitter.png" alt="twitter" /></a>
+                <a href="#"><img src="./assets/500 Px.png" alt="500px" /></a>
+                <a href="#"><img src="./assets/Flickr.png" alt="flickr" /></a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Right Section -->
+          <div class="foot2">
+            <div class="menu-section">
+              <h3 class="playfair_display">Menu</h3>
+              <ul class="menu-list lato">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#service">Services</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="foot">All Rights Reserved By © Elizabeth Photography 2024</div>
+      </div>
+    </footer>
   </section>
 </body>
 
