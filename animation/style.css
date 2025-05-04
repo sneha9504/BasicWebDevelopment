@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.animat {
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animat:hover {
+  transform: translate(-10px, -10px) rotate(-5deg); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+
+.animat:hover .star {
+  animation: spinStar 2s linear infinite; 
+}
+
+
+.star {
+  display: inline-block;
+  font-size: 40px;
+}
+
+@keyframes spinStar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
