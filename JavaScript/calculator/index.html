@@ -12,40 +12,40 @@
             <input type="text" name="text_input" id="text_input">
 
             <div>
-                <button class="operator">AC</button>
-                <button class="operator">⌫</button>
-                <button class="operator">%</button>
-                <button class="operator">/</button>
+                <button onclick="clear()"class="operator" value="AC">AC</button>
+                <button class="operator" onclick="del()">DEL</button>
+                <button onclick="display()" class="operator">%</button>
+                <button onclick="display()" class="operator">/</button>
             </div>
 
             <div>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="operator">*</button>
+                <button onclick="display()">7</button>
+                <button onclick="display()">8</button>
+                <button onclick="display()">9</button>
+                <button onclick="display()" class="operator">*</button>
             </div>
 
             <div>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="operator">-</button>
+                <button onclick="display()">4</button>
+                <button onclick="display()">5</button>
+                <button onclick="display()">6</button>
+                <button onclick="display()" class="operator">-</button>
             </div>
 
             <div>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="operator">+</button>
+                <button onclick="display()">1</button>
+                <button onclick="display()">2</button>
+                <button onclick="display()">3</button>
+                <button onclick="display()" class="operator">+</button>
             </div>
 
             <div>
-                <button>00</button>
-                <button>0</button>
-                <button>.</button>
-                <button class="equalBtn">=</button>
+                <button onclick="display()">00</button>
+                <button onclick="display()">0</button>
+                <button onclick="display()">.</button>
+                <button onclick="calculate()"class="equalBtn">=</button>
             </div>
     </div>
-    <script src="style.css"></script>  
+    <script src="script.js"></script>  
 </body>
 </html>

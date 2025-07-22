@@ -1,0 +1,43 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "REACT",
+    "imageSrc": "react.png"
+  },
+ 
+  {
+    "title": "DSA",
+    "imageSrc": "dsa.png"
+  },
+  {
+    "title": "DAA",
+    "imageSrc": "daa.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "sql.png"
+  },
+  {
+    "title": "JAVA",
+    "imageSrc": "java.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "c.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "php.png"
+  },
+  {
+    "title": "MONGODB",
+    "imageSrc": "MongoDB.png"
+  }
+]

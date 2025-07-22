@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Online-Food-Ordering",
+    "imageSrc": "food-ordering.png",
+    "description": "The JKS Foods and Restaurant web app offers a seamless online food ordering experience with real-time updates, secure payments, and user-friendly features.",
+    "skills": ["Php", "JS","CSS"],
+    "source": "https://github.com/sneha9504/Online-Food-Ordering"
+  },
+  {
+    "title": "Calculator",
+    "imageSrc": "calculator.png",
+    "description": "A calculator web app providing basic mathematical operations with a clean, user-friendly interface for quick and accurate calculations.",
+    "skills": ["HTML", "CSS", "JS"],
+    "source": "https://github.com/sneha9504/Calculator-using-html-css-javascript"
+  },
+  {
+    "title": "Analog Clock",
+    "imageSrc": "analog.png",
+    "description": "An analog clock web app that displays the current time with a real-time moving hour, minute, and second hand interface.",
+    "skills": ["HTML", "CSS", "JS"],
+    "source": "https://github.com/sneha9504/Analog_Clock"
+  },
+  {
+    "title": "Train-Status",
+    "imageSrc": "trainstatus .png",
+    "description": "A train status app showing real-time train details like number, name, origin, and destination.",
+    "skills": ["HTML", "CSS", "JS","AJAX"],
+    "source": "https://github.com/sneha9504/Get-Train-Details-Using-html-css-js-ajax"
+  },
+  {
+    "title": "PortFolio",
+    "imageSrc": "portfolio.png",
+    "description":"My portfolio showcases my best work, highlighting my skills and projects in web development and design.",
+    "skills": ["HTML", "CSS", "JS","REACT"],
+    "source": "https://github.com/sneha9504/Sneha-Wani-Portfolio"
+  },
+  {
+    "title": "ToDo-List Application",
+    "imageSrc": "todo.png",
+    "description":"A To-Do List application helps users manage and track tasks efficiently for better productivity.",
+    "skills": ["HTML", "CSS", "JS","Full Stack"],
+    "source": "https://github.com/sneha9504/Full-Stack-Todo-Application.git"
+    
+  },
+  {
+    "title": "User-Authentication Application",
+    "imageSrc": "authentication.png",
+    "description":"User authentication is the process of verifying a user's identity using credentials like email, username, password, or OTP to grant secure access to an application.",
+    "skills": ["HTML", "CSS", "JS","Full Stack"],
+    "source": "https://github.com/sneha9504/Authentication.git"
+    
+  }
+
+]
