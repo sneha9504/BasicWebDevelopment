@@ -46,7 +46,7 @@
 // console.log(arr);
 
 
-const students = ["Alice", "Bob", "Charlie"];
+// const students = ["Alice", "Bob", "Charlie"];
 // for (let i = 0; i < students.length; i++) {
 // console.log(`Student at index ${i}: ${students[i]}`);
 // }
@@ -91,9 +91,42 @@ const students = ["Alice", "Bob", "Charlie"];
 // janeTheTrainee.makeAwesomeSmoothie();
 
 
-console.log("First: I'm making a sandwich."); // 1st
-setTimeout(() => {
-    console.log("Third: Sandwich is ready! 🥪"); // 3rd
-   
-}, 2000); 
-console.log("Second: I'm washing the dishes while I wait."); // 2nd
+// console.log("First: I'm making a sandwich."); // 1st
+// setTimeout(() => {
+//     console.log("Third: Sandwich is ready! 🥪"); // 3rd
+
+// }, 2000); 
+// console.log("Second: I'm washing the dishes while I wait."); // 2nd
+
+// async function getRandomQuote() {
+//     try {
+//         const response = await
+//             fetch('https://jsonplaceholder.typicode.com/todos/1');
+
+//         if (!response.ok) {
+//             throw new Error(`HTTP error! status:${response.status}`);
+//         }
+//         const data = await response.json();
+//         console.log(`Quote: "${data.content}" -${data.author}`);
+//     } catch (error) {
+//         console.error("Could not fetch the quote:", error);
+//     }
+// }
+// getRandomQuot
+// console.log([...'hello'].length);
+
+// Promise.resolve(5).then(x=>x*2)
+// const sum = (array) => {
+//     let total = 0
+//     for (const arr of array) {
+//         total +=arr;
+//     }
+//     return total;
+// }
+
+// let addition = sum([1, 2, 3, 4, 5]);
+
+// console.log(addition);
+
+
+
